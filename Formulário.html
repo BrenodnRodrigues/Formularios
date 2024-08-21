@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<hml>
+
+    <head>
+        <title>Formulário</title>
+        <style>
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Exemplo de Formulário em HTML</h1>
+        <h2>Exemplo 01</h2>
+        <!---->
+        <form>
+            <input type="text" name="Nome" placeholder="Nome">
+            <input type="e-mail" name="E-mail" placeholder="Email">
+            <input type="date" name="Data de Nascimento">
+            <input type="tel" name="usertel" placeholder="Celular">
+            <input type="password" name="Senha" placeholder="Senha">
+            <input type="submit" name="Enviar" value="Cadastrar">
+        </form>
+        <!---->
+        <h2> Exemplo 02</h2>
+        <form>
+            <textarea style="text-align: center;" rows="5" cols="50">"Texto Livre"</textarea>
+        </form>
+        <!---->
+        <h2>Exemplo 03</h2>
+        <fieldset>
+            <legend>Formulário</legend>
+            Nome: <input type="text" name="Nome"><br>
+            <br>
+            Sexo: <input type="checkbox" name="mascu">Masculino
+            <input type="checkbox" name="femin">Feminino
+            <!---->
+            <br>
+            <br>
+            <!---->
+            Pais <select name="Lista" id="option">
+                <option>Selecione uma Opção</option>
+                <option>Brasil</option>
+                <option>Noruega</option>
+                <option>Finlândia</option>
+                <option>Inglaterra</option>
+                <option>Grécia</option>
+                <option>China</option>
+                <option>Canadá</option>
+
+            </select>
+            <br>
+            <!---->
+            <form>
+                <p>Mensagem</p>
+                <textarea rows="5" cols="30"></textarea>
+            </form>
+            <!---->
+            <input type="checkbox" value="option">Assinar Newsletter<br>
+            <form>
+                <input type="submit" value="Enviar">
+            </form>
+            <!---->
+        </fieldset>
+        <br>
+        <!---->
+        <h3>Exemplo 04</h3>
+        <form action="https://www.google.com/search?q/">
+            <input type="text" name="Barra de Pesquisa" name="q">
+            <button type="submit">Clique para Pesquisar</button>
+        </form>
+
+        
+
+
+    </body>
+</hml>
